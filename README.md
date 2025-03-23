@@ -5,5 +5,4 @@ This project will sum up all the skills that are learned during the process of l
 Skills applied:
 - Basic HTML
 - Git
-- CL commands
 
