@@ -132,3 +132,45 @@ ul, ol {
     background-color: #2c3e50;
     color: #ffffff;
 }
+
+/* Section Titles */
+.featured-section h2 {
+    background-color: #dbeeff; /* soft blue matching navbar */
+    color: #2c3e50;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 6px solid #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Current and Upcoming Recipes - still slightly stronger to differentiate */
+.current-section h2, .upcoming-section h2 {
+    background-color: #dbeeff;
+    color: #2c3e50;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 6px solid #dbeeff;
+    margin-bottom: 15px;
+}
+
+/* Links */
+.featured-section a, .current-section a, .upcoming-section a {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover */
+.featured-section a:hover, .current-section a:hover, .upcoming-section a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+/* List Items */
+.featured-section li, .current-section li, .upcoming-section li {
+    margin-bottom: 8px;
+    color: #34495e;
+}
+
